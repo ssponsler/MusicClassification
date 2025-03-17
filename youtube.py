@@ -42,7 +42,7 @@ def get_youtube_video(query):
             return video_url
         
     except Exception as e:
-        print(f"⚠️ ERROR: Failed to fetch YouTube video for {query} - {e}")
+        print(f"ERROR: Failed to fetch YouTube video for {query} - {e}")
     
     return None
 
