@@ -1,2 +1,2 @@
 model_cache/*
-processed_cache/*
+processed_cache/*.env
